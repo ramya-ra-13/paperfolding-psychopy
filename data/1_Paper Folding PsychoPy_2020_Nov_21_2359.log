@@ -1,0 +1,281 @@
+0.4909 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.7733 	INFO 	Loaded monitor calibration from ['2020_10_16 22:35']
+7.6062 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x142c0a908>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11c00b080>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6066 	EXP 	window1: mouseVisible = True
+7.6066 	EXP 	window1: recordFrameIntervals = False
+7.8385 	EXP 	window1: recordFrameIntervals = True
+8.0221 	DEBUG 	Screen (0) actual frame rate measured at 59.97
+8.0221 	EXP 	window1: recordFrameIntervals = False
+8.1888 	EXP 	Created Titlecard = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Titlecard', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Paper Folding Task\n', units='height', win=Window(...), wrapWidth=1)
+8.2235 	EXP 	Created response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='response', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.2453 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2722 	EXP 	Created response2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='response2', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.2988 	EXP 	Created ExProblem = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='ExProblem', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.3239 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.3545 	EXP 	Created sampleimage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sample_task/q1.png', interpolate=True, mask=None, maskParams=None, name='sampleimage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.4 , 0.31]), texRes=512, units='height', win=Window(...))
+8.3812 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+8.3869 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([255., 255., 255.]), text='Good job! \n\n\n', units='height', win=Window(...), wrapWidth=1)
+8.3953 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sample_task/q1.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0.  , 0.26]), size=array([0.7  , 0.155]), texRes=512, units='height', win=Window(...))
+8.4496 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([ 0. , -0.1]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.4524 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.5018 	EXP 	Created part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='part1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5332 	EXP 	Created resp1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='resp1', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.5502 	EXP 	Created secondslidein = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='secondslidein', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5768 	EXP 	Created resp4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='resp4', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.5899 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6155 	EXP 	Created resp5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='resp5', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.6253 	EXP 	Created Part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Part1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6503 	EXP 	Created resbeforetrial1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='resbeforetrial1', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.6520 	EXP 	Created Questions_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.4 , 0.31]), texRes=512, units='height', win=Window(...))
+8.6805 	EXP 	Created resptrial1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='resptrial1', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+8.6837 	EXP 	Created Show = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Show', opacity=1.0, ori=0, pos=array([-0.6,  0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.6939 	EXP 	Created middle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='middle', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7190 	EXP 	Created respbeforetrial2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='respbeforetrial2', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press any key to continue.', units='height', win=Window(...), wrapWidth=1)
+8.7205 	EXP 	Created Questions_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.4 , 0.31]), texRes=512, units='height', win=Window(...))
+8.7456 	EXP 	Created number = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='number', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press 1, 2, 3, 4, or 5 on your keyboard.', units='height', win=Window(...), wrapWidth=1)
+8.7476 	EXP 	Created Show_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Show_2', opacity=1.0, ori=0, pos=array([-0.6,  0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7516 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thankyou', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7790 	EXP 	Created finalslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='finalslide', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.7897 	DATA 	Keypress: space
+8.8052 	EXP 	Titlecard: autoDraw = True
+8.8052 	EXP 	response: autoDraw = True
+9.1256 	DATA 	Keypress: space
+9.1378 	EXP 	Titlecard: autoDraw = False
+9.1378 	EXP 	response: autoDraw = False
+9.1378 	EXP 	Instructions: autoDraw = True
+9.1378 	EXP 	response2: autoDraw = True
+9.5943 	DATA 	Keypress: space
+9.6060 	EXP 	Instructions: autoDraw = False
+9.6060 	EXP 	response2: autoDraw = False
+9.6060 	EXP 	ExProblem: autoDraw = True
+9.6060 	EXP 	text_2: autoDraw = True
+9.9003 	DEBUG 	Read Excel file with pandas: samplequestion.xlsx
+9.9029 	DEBUG 	Clearing unnamed columns from samplequestion.xlsx
+9.9033 	EXP 	Imported samplequestion.xlsx as conditions, 1 conditions, 2 params
+9.9036 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+9.9039 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFIle', 'sample_task/sample.png'), ('corrAns', 3)])
+9.9146 	DATA 	Keypress: space
+9.9385 	EXP 	ExProblem: autoDraw = False
+9.9385 	EXP 	text_2: autoDraw = False
+9.9385 	EXP 	sampleimage: autoDraw = True
+9.9385 	EXP 	text_3: autoDraw = True
+10.3586 	DATA 	Keypress: space
+10.6626 	INFO 	saved data to /Users/ramyaramakrishnan/Documents/gan-college/RA/Paper Folding Folder/data/1_Paper Folding PsychoPy_2020_Nov_21_2359trials_3.csv
+10.6665 	DATA 	Keypress: 1
+10.6874 	EXP 	sampleimage: autoDraw = False
+10.6874 	EXP 	text_3: autoDraw = False
+10.6874 	EXP 	text_4: autoDraw = True
+10.6874 	EXP 	image_3: autoDraw = True
+10.6874 	EXP 	text_5: autoDraw = True
+10.6874 	EXP 	text_7: autoDraw = True
+11.2231 	DATA 	Keypress: space
+11.2367 	EXP 	text_4: autoDraw = False
+11.2367 	EXP 	image_3: autoDraw = False
+11.2367 	EXP 	text_5: autoDraw = False
+11.2367 	EXP 	text_7: autoDraw = False
+11.2367 	EXP 	part1: autoDraw = True
+11.2367 	EXP 	resp1: autoDraw = True
+11.5735 	DATA 	Keypress: space
+11.5870 	EXP 	part1: autoDraw = False
+11.5870 	EXP 	resp1: autoDraw = False
+11.5870 	EXP 	secondslidein: autoDraw = True
+11.5870 	EXP 	resp4: autoDraw = True
+11.8910 	DATA 	Keypress: space
+11.9033 	EXP 	secondslidein: autoDraw = False
+11.9033 	EXP 	resp4: autoDraw = False
+11.9033 	EXP 	text: autoDraw = True
+11.9033 	EXP 	resp5: autoDraw = True
+12.1745 	DATA 	Keypress: space
+12.1871 	EXP 	text: autoDraw = False
+12.1871 	EXP 	resp5: autoDraw = False
+12.1871 	EXP 	Part1: autoDraw = True
+12.1871 	EXP 	resbeforetrial1: autoDraw = True
+12.5472 	DEBUG 	Read Excel file with pandas: Images and Correct Answers Part_1.xlsx
+12.5493 	DEBUG 	Clearing unnamed columns from Images and Correct Answers Part_1.xlsx
+12.5500 	EXP 	Imported Images and Correct Answers Part_1.xlsx as conditions, 10 conditions, 2 params
+12.5504 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+12.5508 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'recoding_task_1/q1.png'), ('corrAns', 1)])
+12.5732 	DATA 	Keypress: space
+12.5878 	EXP 	Part1: autoDraw = False
+12.5878 	EXP 	resbeforetrial1: autoDraw = False
+12.5878 	EXP 	Questions_1: image = 'recoding_task_1/q1.png'
+12.5878 	EXP 	Questions_1: autoDraw = True
+12.5878 	EXP 	resptrial1: autoDraw = True
+12.5878 	EXP 	Show: autoDraw = True
+13.4095 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'recoding_task_1/q2.png'), ('corrAns', 4)])
+13.4275 	DATA 	Keypress: 1
+13.4405 	EXP 	Questions_1: autoDraw = False
+13.4405 	EXP 	resptrial1: autoDraw = False
+13.4405 	EXP 	Show: autoDraw = False
+13.4405 	EXP 	Questions_1: image = 'recoding_task_1/q2.png'
+13.4405 	EXP 	Questions_1: autoDraw = True
+13.4405 	EXP 	resptrial1: autoDraw = True
+13.4405 	EXP 	Show: autoDraw = True
+13.5557 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'recoding_task_1/q3.png'), ('corrAns', 2)])
+13.5736 	DATA 	Keypress: 4
+13.5878 	EXP 	Questions_1: autoDraw = False
+13.5878 	EXP 	resptrial1: autoDraw = False
+13.5878 	EXP 	Show: autoDraw = False
+13.5878 	EXP 	Questions_1: image = 'recoding_task_1/q3.png'
+13.5878 	EXP 	Questions_1: autoDraw = True
+13.5878 	EXP 	resptrial1: autoDraw = True
+13.5878 	EXP 	Show: autoDraw = True
+13.7399 	EXP 	New trial (rep=0, index=3): OrderedDict([('ImageFile', 'recoding_task_1/q4.png'), ('corrAns', 4)])
+13.7544 	DATA 	Keypress: 2
+13.7713 	EXP 	Questions_1: autoDraw = False
+13.7713 	EXP 	resptrial1: autoDraw = False
+13.7713 	EXP 	Show: autoDraw = False
+13.7713 	EXP 	Questions_1: image = 'recoding_task_1/q4.png'
+13.7713 	EXP 	Questions_1: autoDraw = True
+13.7713 	EXP 	resptrial1: autoDraw = True
+13.7713 	EXP 	Show: autoDraw = True
+13.9728 	EXP 	New trial (rep=0, index=4): OrderedDict([('ImageFile', 'recoding_task_1/q5.png'), ('corrAns', 2)])
+13.9890 	DATA 	Keypress: 3
+14.0046 	EXP 	Questions_1: autoDraw = False
+14.0046 	EXP 	resptrial1: autoDraw = False
+14.0046 	EXP 	Show: autoDraw = False
+14.0046 	EXP 	Questions_1: image = 'recoding_task_1/q5.png'
+14.0046 	EXP 	Questions_1: autoDraw = True
+14.0046 	EXP 	resptrial1: autoDraw = True
+14.0046 	EXP 	Show: autoDraw = True
+14.1231 	EXP 	New trial (rep=0, index=5): OrderedDict([('ImageFile', 'recoding_task_1/q6.png'), ('corrAns', 5)])
+14.1423 	DATA 	Keypress: 1
+14.1559 	EXP 	Questions_1: autoDraw = False
+14.1559 	EXP 	resptrial1: autoDraw = False
+14.1559 	EXP 	Show: autoDraw = False
+14.1559 	EXP 	Questions_1: image = 'recoding_task_1/q6.png'
+14.1559 	EXP 	Questions_1: autoDraw = True
+14.1559 	EXP 	resptrial1: autoDraw = True
+14.1559 	EXP 	Show: autoDraw = True
+14.2566 	EXP 	New trial (rep=0, index=6): OrderedDict([('ImageFile', 'recoding_task_1/q7.png'), ('corrAns', 1)])
+14.2698 	DATA 	Keypress: 4
+14.2883 	EXP 	Questions_1: autoDraw = False
+14.2883 	EXP 	resptrial1: autoDraw = False
+14.2883 	EXP 	Show: autoDraw = False
+14.2883 	EXP 	Questions_1: image = 'recoding_task_1/q7.png'
+14.2883 	EXP 	Questions_1: autoDraw = True
+14.2883 	EXP 	resptrial1: autoDraw = True
+14.2883 	EXP 	Show: autoDraw = True
+14.4418 	EXP 	New trial (rep=0, index=7): OrderedDict([('ImageFile', 'recoding_task_1/q8.png'), ('corrAns', 3)])
+14.4624 	DATA 	Keypress: 2
+14.4753 	EXP 	Questions_1: autoDraw = False
+14.4753 	EXP 	resptrial1: autoDraw = False
+14.4753 	EXP 	Show: autoDraw = False
+14.4753 	EXP 	Questions_1: image = 'recoding_task_1/q8.png'
+14.4753 	EXP 	Questions_1: autoDraw = True
+14.4753 	EXP 	resptrial1: autoDraw = True
+14.4753 	EXP 	Show: autoDraw = True
+14.6073 	EXP 	New trial (rep=0, index=8): OrderedDict([('ImageFile', 'recoding_task_1/q9.png'), ('corrAns', 5)])
+14.6243 	DATA 	Keypress: 3
+14.6378 	EXP 	Questions_1: autoDraw = False
+14.6378 	EXP 	resptrial1: autoDraw = False
+14.6378 	EXP 	Show: autoDraw = False
+14.6378 	EXP 	Questions_1: image = 'recoding_task_1/q9.png'
+14.6378 	EXP 	Questions_1: autoDraw = True
+14.6378 	EXP 	resptrial1: autoDraw = True
+14.6378 	EXP 	Show: autoDraw = True
+14.7582 	EXP 	New trial (rep=0, index=9): OrderedDict([('ImageFile', 'recoding_task_1/q10.png'), ('corrAns', 5)])
+14.7757 	DATA 	Keypress: 1
+14.7890 	EXP 	Questions_1: autoDraw = False
+14.7890 	EXP 	resptrial1: autoDraw = False
+14.7890 	EXP 	Show: autoDraw = False
+14.7890 	EXP 	Questions_1: image = 'recoding_task_1/q10.png'
+14.7890 	EXP 	Questions_1: autoDraw = True
+14.7890 	EXP 	resptrial1: autoDraw = True
+14.7890 	EXP 	Show: autoDraw = True
+15.1422 	DATA 	Keypress: space
+15.5969 	INFO 	saved data to /Users/ramyaramakrishnan/Documents/gan-college/RA/Paper Folding Folder/data/1_Paper Folding PsychoPy_2020_Nov_21_2359trials.csv
+15.6001 	DATA 	Keypress: 1
+15.6209 	EXP 	Questions_1: autoDraw = False
+15.6209 	EXP 	resptrial1: autoDraw = False
+15.6209 	EXP 	Show: autoDraw = False
+15.6209 	EXP 	middle: autoDraw = True
+15.6209 	EXP 	respbeforetrial2: autoDraw = True
+16.0640 	DEBUG 	Read Excel file with pandas: Images and Correct Answers Part_2.xlsx
+16.0660 	DEBUG 	Clearing unnamed columns from Images and Correct Answers Part_2.xlsx
+16.0668 	EXP 	Imported Images and Correct Answers Part_2.xlsx as conditions, 10 conditions, 2 params
+16.0673 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+16.0677 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'recoding_task_2/q11.png'), ('corrAns', 3)])
+16.0861 	DATA 	Keypress: space
+16.1051 	EXP 	middle: autoDraw = False
+16.1051 	EXP 	respbeforetrial2: autoDraw = False
+16.1051 	EXP 	Questions_2: image = 'recoding_task_2/q11.png'
+16.1051 	EXP 	Questions_2: autoDraw = True
+16.1051 	EXP 	number: autoDraw = True
+16.1051 	EXP 	Show_2: autoDraw = True
+16.7916 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'recoding_task_2/q12.png'), ('corrAns', 2)])
+16.8089 	DATA 	Keypress: 1
+16.8222 	EXP 	Questions_2: autoDraw = False
+16.8222 	EXP 	number: autoDraw = False
+16.8222 	EXP 	Show_2: autoDraw = False
+16.8222 	EXP 	Questions_2: image = 'recoding_task_2/q12.png'
+16.8222 	EXP 	Questions_2: autoDraw = True
+16.8222 	EXP 	number: autoDraw = True
+16.8222 	EXP 	Show_2: autoDraw = True
+16.9239 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'recoding_task_2/q13.png'), ('corrAns', 1)])
+16.9441 	DATA 	Keypress: 4
+16.9585 	EXP 	Questions_2: autoDraw = False
+16.9585 	EXP 	number: autoDraw = False
+16.9585 	EXP 	Show_2: autoDraw = False
+16.9585 	EXP 	Questions_2: image = 'recoding_task_2/q13.png'
+16.9585 	EXP 	Questions_2: autoDraw = True
+16.9585 	EXP 	number: autoDraw = True
+16.9585 	EXP 	Show_2: autoDraw = True
+17.0904 	EXP 	New trial (rep=0, index=3): OrderedDict([('ImageFile', 'recoding_task_2/q14.png'), ('corrAns', 5)])
+17.1087 	DATA 	Keypress: 2
+17.1217 	EXP 	Questions_2: autoDraw = False
+17.1217 	EXP 	number: autoDraw = False
+17.1217 	EXP 	Show_2: autoDraw = False
+17.1217 	EXP 	Questions_2: image = 'recoding_task_2/q14.png'
+17.1217 	EXP 	Questions_2: autoDraw = True
+17.1217 	EXP 	number: autoDraw = True
+17.1217 	EXP 	Show_2: autoDraw = True
+17.2234 	EXP 	New trial (rep=0, index=4): OrderedDict([('ImageFile', 'recoding_task_2/q15.png'), ('corrAns', 2)])
+17.2399 	DATA 	Keypress: 3
+17.2533 	EXP 	Questions_2: autoDraw = False
+17.2533 	EXP 	number: autoDraw = False
+17.2533 	EXP 	Show_2: autoDraw = False
+17.2533 	EXP 	Questions_2: image = 'recoding_task_2/q15.png'
+17.2533 	EXP 	Questions_2: autoDraw = True
+17.2533 	EXP 	number: autoDraw = True
+17.2533 	EXP 	Show_2: autoDraw = True
+17.3552 	EXP 	New trial (rep=0, index=5): OrderedDict([('ImageFile', 'recoding_task_2/q16.png'), ('corrAns', 1)])
+17.3653 	DATA 	Keypress: 1
+17.3865 	EXP 	Questions_2: autoDraw = False
+17.3865 	EXP 	number: autoDraw = False
+17.3865 	EXP 	Show_2: autoDraw = False
+17.3865 	EXP 	Questions_2: image = 'recoding_task_2/q16.png'
+17.3865 	EXP 	Questions_2: autoDraw = True
+17.3865 	EXP 	number: autoDraw = True
+17.3865 	EXP 	Show_2: autoDraw = True
+17.8910 	EXP 	New trial (rep=0, index=6): OrderedDict([('ImageFile', 'recoding_task_2/q17.png'), ('corrAns', 5)])
+17.9091 	DATA 	Keypress: 4
+17.9207 	EXP 	Questions_2: autoDraw = False
+17.9207 	EXP 	number: autoDraw = False
+17.9207 	EXP 	Show_2: autoDraw = False
+17.9207 	EXP 	Questions_2: image = 'recoding_task_2/q17.png'
+17.9207 	EXP 	Questions_2: autoDraw = True
+17.9207 	EXP 	number: autoDraw = True
+17.9207 	EXP 	Show_2: autoDraw = True
+185.9950 	EXP 	New trial (rep=0, index=7): OrderedDict([('ImageFile', 'recoding_task_2/q18.png'), ('corrAns', 4)])
+186.0475 	DATA 	Keypress: 2
+186.0686 	EXP 	Questions_2: autoDraw = False
+186.0686 	EXP 	number: autoDraw = False
+186.0686 	EXP 	Show_2: autoDraw = False
+186.0686 	EXP 	Questions_2: image = 'recoding_task_2/q18.png'
+186.0686 	EXP 	Questions_2: autoDraw = True
+186.0686 	EXP 	number: autoDraw = True
+186.0686 	EXP 	Show_2: autoDraw = True
+186.7055 	EXP 	New trial (rep=0, index=8): OrderedDict([('ImageFile', 'recoding_task_2/q19.png'), ('corrAns', 4)])
+186.7243 	DATA 	Keypress: 1
+186.7347 	EXP 	Questions_2: autoDraw = False
+186.7347 	EXP 	number: autoDraw = False
+186.7347 	EXP 	Show_2: autoDraw = False
+186.7347 	EXP 	Questions_2: image = 'recoding_task_2/q19.png'
+186.7347 	EXP 	Questions_2: autoDraw = True
+186.7347 	EXP 	number: autoDraw = True
+186.7347 	EXP 	Show_2: autoDraw = True
+196.4704 	EXP 	window1: mouseVisible = True
+196.4772 	DEBUG 	Saving data for Paper Folding PsychoPy ExperimentHandler
+196.4814 	INFO 	saved data to /Users/ramyaramakrishnan/Documents/gan-college/RA/Paper Folding Folder/data/1_Paper Folding PsychoPy_2020_Nov_21_2359.psydat
+196.4856 	INFO 	saved data to '/Users/ramyaramakrishnan/Documents/gan-college/RA/Paper Folding Folder/data/1_Paper Folding PsychoPy_2020_Nov_21_2359.csv'

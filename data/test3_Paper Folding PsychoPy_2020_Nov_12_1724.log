@@ -1,0 +1,158 @@
+0.4197 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.6840 	INFO 	Loaded monitor calibration from ['2020_10_16 22:35']
+16.3656 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+16.3661 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x142a7da90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x11bf9db38>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.3663 	EXP 	window1: mouseVisible = True
+16.3663 	EXP 	window1: recordFrameIntervals = False
+16.6638 	EXP 	window1: recordFrameIntervals = True
+16.7982 	WARNING 	t of last frame was 51.57ms (=1/19)
+16.8814 	WARNING 	t of last frame was 67.08ms (=1/14)
+16.9362 	WARNING 	t of last frame was 54.77ms (=1/18)
+17.0147 	WARNING 	t of last frame was 51.62ms (=1/19)
+17.0808 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+20.0542 	DATA 	Keypress: space
+20.1306 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.2782 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.3246 	EXP 	Created ExProblem = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ExProblem', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4018 	EXP 	Created part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='part1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4363 	EXP 	Created Part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Part1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4634 	EXP 	Created Questions_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1. , 0.5]), texRes=512, units='height', win=Window(...))
+20.5051 	EXP 	Created middle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='middle', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.5317 	EXP 	Created Questions_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Questions_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1. , 0.5]), texRes=512, units='height', win=Window(...))
+20.5670 	EXP 	Created thankyou = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.4, italic=False, languageStyle='LTR', name='thankyou', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thank you', units='height', win=Window(...), wrapWidth=1)
+20.6134 	EXP 	Instructions: autoDraw = True
+22.4515 	DATA 	Keypress: space
+22.5144 	EXP 	Instructions: autoDraw = False
+22.5144 	EXP 	ExProblem: autoDraw = True
+24.0504 	DATA 	Keypress: space
+24.0635 	EXP 	ExProblem: autoDraw = False
+24.0635 	EXP 	part1: autoDraw = True
+25.6174 	DATA 	Keypress: space
+25.6803 	EXP 	part1: autoDraw = False
+25.6803 	EXP 	Part1: autoDraw = True
+26.8112 	DEBUG 	Read Excel file with pandas: Images and Correct Answers Part_1.xlsx
+26.8136 	DEBUG 	Clearing unnamed columns from Images and Correct Answers Part_1.xlsx
+26.8141 	EXP 	Imported Images and Correct Answers Part_1.xlsx as conditions, 10 conditions, 2 params
+26.8144 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+26.8147 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'recoding_task_1/q1.png'), ('corrAns', 'A')])
+26.8489 	DATA 	Keypress: space
+26.8805 	EXP 	Part1: autoDraw = False
+26.8805 	EXP 	Questions_1: image = 'recoding_task_1/q1.png'
+26.8805 	EXP 	Questions_1: autoDraw = True
+27.9325 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'recoding_task_1/q2.png'), ('corrAns', 'D')])
+27.9466 	DATA 	Keypress: a
+27.9970 	EXP 	Questions_1: autoDraw = False
+27.9970 	EXP 	Questions_1: image = 'recoding_task_1/q2.png'
+27.9970 	EXP 	Questions_1: autoDraw = True
+28.7016 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'recoding_task_1/q3.png'), ('corrAns', 'B')])
+28.7137 	DATA 	Keypress: b
+28.7654 	EXP 	Questions_1: autoDraw = False
+28.7654 	EXP 	Questions_1: image = 'recoding_task_1/q3.png'
+28.7654 	EXP 	Questions_1: autoDraw = True
+29.3320 	EXP 	New trial (rep=0, index=3): OrderedDict([('ImageFile', 'recoding_task_1/q4.png'), ('corrAns', 'D')])
+29.3464 	DATA 	Keypress: d
+29.3965 	EXP 	Questions_1: autoDraw = False
+29.3965 	EXP 	Questions_1: image = 'recoding_task_1/q4.png'
+29.3965 	EXP 	Questions_1: autoDraw = True
+30.1989 	EXP 	New trial (rep=0, index=4): OrderedDict([('ImageFile', 'recoding_task_1/q5.png'), ('corrAns', 'B')])
+30.2165 	DATA 	Keypress: e
+30.2636 	EXP 	Questions_1: autoDraw = False
+30.2636 	EXP 	Questions_1: image = 'recoding_task_1/q5.png'
+30.2636 	EXP 	Questions_1: autoDraw = True
+30.9651 	EXP 	New trial (rep=0, index=5): OrderedDict([('ImageFile', 'recoding_task_1/q6.png'), ('corrAns', 'E')])
+30.9781 	DATA 	Keypress: c
+31.0283 	EXP 	Questions_1: autoDraw = False
+31.0283 	EXP 	Questions_1: image = 'recoding_task_1/q6.png'
+31.0283 	EXP 	Questions_1: autoDraw = True
+31.7363 	EXP 	New trial (rep=0, index=6): OrderedDict([('ImageFile', 'recoding_task_1/q7.png'), ('corrAns', 'A')])
+31.7491 	DATA 	Keypress: a
+31.7633 	EXP 	Questions_1: autoDraw = False
+31.7633 	EXP 	Questions_1: image = 'recoding_task_1/q7.png'
+31.7633 	EXP 	Questions_1: autoDraw = True
+32.3820 	EXP 	New trial (rep=0, index=7): OrderedDict([('ImageFile', 'recoding_task_1/q8.png'), ('corrAns', 'C')])
+32.3950 	DATA 	Keypress: b
+32.4448 	EXP 	Questions_1: autoDraw = False
+32.4448 	EXP 	Questions_1: image = 'recoding_task_1/q8.png'
+32.4448 	EXP 	Questions_1: autoDraw = True
+33.0976 	EXP 	New trial (rep=0, index=8): OrderedDict([('ImageFile', 'recoding_task_1/q9.png'), ('corrAns', 'E')])
+33.1134 	DATA 	Keypress: e
+33.1645 	EXP 	Questions_1: autoDraw = False
+33.1645 	EXP 	Questions_1: image = 'recoding_task_1/q9.png'
+33.1645 	EXP 	Questions_1: autoDraw = True
+33.7993 	EXP 	New trial (rep=0, index=9): OrderedDict([('ImageFile', 'recoding_task_1/q10.png'), ('corrAns', 'E')])
+33.8131 	DATA 	Keypress: d
+33.8473 	EXP 	Questions_1: autoDraw = False
+33.8473 	EXP 	Questions_1: image = 'recoding_task_1/q10.png'
+33.8473 	EXP 	Questions_1: autoDraw = True
+34.4346 	DATA 	Keypress: a
+34.4845 	EXP 	Questions_1: autoDraw = False
+34.4845 	EXP 	middle: autoDraw = True
+35.3887 	DEBUG 	Read Excel file with pandas: Images and Correct Answers Part_2.xlsx
+35.3901 	DEBUG 	Clearing unnamed columns from Images and Correct Answers Part_2.xlsx
+35.3905 	EXP 	Imported Images and Correct Answers Part_2.xlsx as conditions, 10 conditions, 2 params
+35.3908 	EXP 	Created sequence: sequential, trialTypes=10, nReps=1, seed=None
+35.3911 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'recoding_task_2/q11.png'), ('corrAns', 'C')])
+35.4033 	DATA 	Keypress: space
+35.4645 	EXP 	middle: autoDraw = False
+35.4645 	EXP 	Questions_2: image = 'recoding_task_2/q11.png'
+35.4645 	EXP 	Questions_2: autoDraw = True
+36.4174 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'recoding_task_2/q12.png'), ('corrAns', 'B')])
+36.4304 	DATA 	Keypress: b
+36.4803 	EXP 	Questions_2: autoDraw = False
+36.4803 	EXP 	Questions_2: image = 'recoding_task_2/q12.png'
+36.4803 	EXP 	Questions_2: autoDraw = True
+37.0662 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'recoding_task_2/q13.png'), ('corrAns', 'A')])
+37.0795 	DATA 	Keypress: d
+37.1139 	EXP 	Questions_2: autoDraw = False
+37.1139 	EXP 	Questions_2: image = 'recoding_task_2/q13.png'
+37.1139 	EXP 	Questions_2: autoDraw = True
+37.8818 	EXP 	New trial (rep=0, index=3): OrderedDict([('ImageFile', 'recoding_task_2/q14.png'), ('corrAns', 'E')])
+37.8952 	DATA 	Keypress: e
+37.9474 	EXP 	Questions_2: autoDraw = False
+37.9474 	EXP 	Questions_2: image = 'recoding_task_2/q14.png'
+37.9474 	EXP 	Questions_2: autoDraw = True
+38.6529 	EXP 	New trial (rep=0, index=4): OrderedDict([('ImageFile', 'recoding_task_2/q15.png'), ('corrAns', 'B')])
+38.6651 	DATA 	Keypress: a
+38.6798 	EXP 	Questions_2: autoDraw = False
+38.6798 	EXP 	Questions_2: image = 'recoding_task_2/q15.png'
+38.6798 	EXP 	Questions_2: autoDraw = True
+39.3150 	EXP 	New trial (rep=0, index=5): OrderedDict([('ImageFile', 'recoding_task_2/q16.png'), ('corrAns', 'A')])
+39.3283 	DATA 	Keypress: b
+39.3810 	EXP 	Questions_2: autoDraw = False
+39.3810 	EXP 	Questions_2: image = 'recoding_task_2/q16.png'
+39.3810 	EXP 	Questions_2: autoDraw = True
+39.9182 	EXP 	New trial (rep=0, index=6): OrderedDict([('ImageFile', 'recoding_task_2/q17.png'), ('corrAns', 'E')])
+39.9310 	DATA 	Keypress: c
+39.9464 	EXP 	Questions_2: autoDraw = False
+39.9464 	EXP 	Questions_2: image = 'recoding_task_2/q17.png'
+39.9464 	EXP 	Questions_2: autoDraw = True
+40.7030 	EXP 	New trial (rep=0, index=7): OrderedDict([('ImageFile', 'recoding_task_2/q18.png'), ('corrAns', 'D')])
+40.7150 	DATA 	Keypress: d
+40.7297 	EXP 	Questions_2: autoDraw = False
+40.7297 	EXP 	Questions_2: image = 'recoding_task_2/q18.png'
+40.7297 	EXP 	Questions_2: autoDraw = True
+41.5820 	EXP 	New trial (rep=0, index=8): OrderedDict([('ImageFile', 'recoding_task_2/q19.png'), ('corrAns', 'D')])
+41.5989 	DATA 	Keypress: a
+41.6471 	EXP 	Questions_2: autoDraw = False
+41.6471 	EXP 	Questions_2: image = 'recoding_task_2/q19.png'
+41.6471 	EXP 	Questions_2: autoDraw = True
+42.2685 	EXP 	New trial (rep=0, index=9): OrderedDict([('ImageFile', 'recoding_task_2/q20.png'), ('corrAns', 'C')])
+42.2808 	DATA 	Keypress: e
+42.2964 	EXP 	Questions_2: autoDraw = False
+42.2964 	EXP 	Questions_2: image = 'recoding_task_2/q20.png'
+42.2964 	EXP 	Questions_2: autoDraw = True
+43.2867 	DATA 	Keypress: a
+43.3468 	EXP 	Questions_2: autoDraw = False
+43.3468 	EXP 	thankyou: autoDraw = True
+44.5548 	DATA 	Keypress: space
+44.5670 	EXP 	thankyou: autoDraw = False
+44.5693 	INFO 	saved data to '/Users/ramyaramakrishnan/Documents/gan-college/RA/data/test3_Paper Folding PsychoPy_2020_Nov_12_1724.csv'
+44.5701 	INFO 	saved data to /Users/ramyaramakrishnan/Documents/gan-college/RA/data/test3_Paper Folding PsychoPy_2020_Nov_12_1724.psydat
+44.8983 	EXP 	window1: mouseVisible = True
+44.8987 	DEBUG 	Saving data for Paper Folding PsychoPy ExperimentHandler
