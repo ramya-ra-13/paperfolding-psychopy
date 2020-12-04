@@ -54,7 +54,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="In this test you are to imagine the folding and unfolding of pieces of paper. &amp;#10;&amp;#10;In each problem in the test there are some figures drawn at the left and there are others drawn at the right. The figures at the left represent a square piece of paper being folded, and the last of these figures on the left will have small circles drawn on it to show where the paper has been punched. " valType="extendedStr"/>
+        <Param name="text" updates="constant" val="In this task, you are to imagine the folding and unfolding of pieces of paper. &amp;#10;&amp;#10;In each problem in the test there are some figures drawn at the left and there are others drawn at the right. The figures at the left represent a square piece of paper being folded, and the last of these figures on the left will have small circles drawn on it to show where the paper has been punched. " valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -313,7 +313,7 @@
         <Param name="Begin JS Routine" updates="constant" val="if ((! countdownStarted)) {&amp;#10;    countdownClock = new core.CountdownTimer(180.0);&amp;#10;    countdownStarted = true;&amp;#10;}&amp;#10;" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="#Setting Clock&amp;#10;if not countdownStarted:&amp;#10;    countdownClock = core.CountdownTimer(180.0)&amp;#10;    countdownStarted = True" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
-        <Param name="Each Frame" updates="constant" val="#Establishing and Displaying Timer&amp;#10;timeRemaining = countdownClock.getTime()&amp;#10;if timeRemaining &lt;=0.00:&amp;#10;    continueRoutine = False&amp;#10;    trials.finished = True&amp;#10;    countdownStarted = False&amp;#10;    continueExperiment = True&amp;#10;else:&amp;#10;    minutes = int (timeRemaining/60.00)&amp;#10;    seconds = int (timeRemaining - (minutes*60.00))&amp;#10;    timeText = str(minutes) + ':'  + str(seconds) &amp;#10;    " valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="#Establishing and Displaying Timer&amp;#10;timeRemaining = countdownClock.getTime()&amp;#10;if timeRemaining &lt;=0.00:&amp;#10;    continueRoutine = False&amp;#10;    trials.finished = True&amp;#10;    countdownStarted = False&amp;#10;    continueExperiment = True&amp;#10;else:&amp;#10;    minutes = int (timeRemaining/60.00)&amp;#10;    seconds = int (timeRemaining - (minutes*60.00))&amp;#10;    timeText = str(minutes) + ':'  + str(seconds) &amp;#10;&amp;#10;    " valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="timeRemaining = countdownClock.getTime();&amp;#10;if ((timeRemaining &lt;= 0.0)) {&amp;#10;    continueRoutine = false;&amp;#10;    trials.finished = true;&amp;#10;    countdownStarted = false;&amp;#10;    continueExperiment = true;&amp;#10;} else {&amp;#10;    minutes = Number.parseInt((timeRemaining / 60.0));&amp;#10;    seconds = Number.parseInt((timeRemaining - (minutes * 60.0)));&amp;#10;    timeText = ((minutes.toString() + &quot;:&quot;) + seconds.toString());&amp;#10;}&amp;#10;" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
@@ -348,6 +348,30 @@
       </TextComponent>
     </Routine>
     <Routine name="intermission">
+      <TextComponent name="stop">
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Times New Roman" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="code"/>
+        <Param name="name" updates="None" val="stop" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.3)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="STOP!" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
       <TextComponent name="middle">
         <Param name="color" updates="constant" val="white" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
@@ -368,7 +392,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="STOP!&amp;#10;&amp;#10;You have finished Part I. &amp;#10;&amp;#10;When you are instructed to begin Part II, click any key on your keyboard. &amp;#10;&amp;#10;You will again have 3 minutes to finish Part II." valType="extendedStr"/>
+        <Param name="text" updates="constant" val="You have finished Part I. &amp;#10;&amp;#10;When you are instructed to begin Part II, click any key on your keyboard. &amp;#10;&amp;#10;You will again have 3 minutes to finish Part II." valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -579,7 +603,7 @@
         <Param name="flip" updates="constant" val="" valType="str"/>
         <Param name="font" updates="constant" val="Times New Roman" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="code"/>
         <Param name="name" updates="None" val="thankyou" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
@@ -755,7 +779,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Now try the sample problem on the next slide. In this problem, one hole is punched through the folded paper.&amp;#10;&amp;#10;Remember that the hole is punched through all the thicknesses of paper at that point. &amp;#10;&amp;#10;One of the five figures at the right will show where the holes could be when the paper is completely unfolded. You are to decide which one of these figures has the correct placement of the holes and click the correct number (1, 2, 3, 4, or, 5) on your keyboard that you feel corresponds with your correct answer." valType="extendedStr"/>
+        <Param name="text" updates="constant" val="Now try the sample problem on the next slide. In this problem, one hole is punched through the folded paper.&amp;#10;&amp;#10;Remember that the hole is punched through all the thicknesses of paper at that point. &amp;#10;&amp;#10;One of the five figures at the right will show where the holes could be when the paper is completely unfolded. You are to decide which one of these figures has the correct placement of the holes and click the correct number (1, 2, 3, 4, or, 5) on your keyboard that you feel corresponds with the correct answer." valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -823,7 +847,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Paper Folding Task&amp;#10;" valType="extendedStr"/>
+        <Param name="text" updates="constant" val="Welcome to the Paper Folding Experiment&amp;#10;" valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -959,7 +983,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Your score on this test will be the number marked correctly minus a fraction of the number marked incorrectly. Therefore, it will not be to your advantage to guess unless you are able to eliminate one or more of the answer choices as wrong." valType="extendedStr"/>
+        <Param name="text" updates="constant" val="Your score on this test will be the questions marked correctly minus a fraction of questions marked incorrectly. Therefore, it will not be to your advantage to guess unless you are able to eliminate one or more of the answer choices as wrong." valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1027,7 +1051,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="This test has two parts. You will have 3 minutes for each of the two parts. You will not be able to go back to previous questions, so please be wary of the clock when proceeding. &amp;#10;&amp;#10;When the time is up, you will be automatically advanced to the next screen. &amp;#10;" valType="extendedStr"/>
+        <Param name="text" updates="constant" val="This test has two parts. You will have 3 minutes for each of the two parts. You will not be able to go back to previous questions, so please be wary of the clock on the top left of your screen when proceeding. &amp;#10;&amp;#10;When the time is up, you will be automatically advanced to the next screen. &amp;#10;" valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1124,7 +1148,7 @@
         <Param name="texture resolution" updates="constant" val="512" valType="code"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </ImageComponent>
-      <TextComponent name="text_5">
+      <TextComponent name="explanation">
         <Param name="color" updates="constant" val="white" valType="str"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
@@ -1133,7 +1157,7 @@
         <Param name="font" updates="constant" val="Times New Roman" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.030" valType="code"/>
-        <Param name="name" updates="None" val="text_5" valType="code"/>
+        <Param name="name" updates="None" val="explanation" valType="code"/>
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="pos" updates="constant" val="(0, -0.1)" valType="code"/>
@@ -1144,7 +1168,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="Notice how in this sample problem, the first image on the left represented a full paper being folded upward “hot-dog style”. Next, a hole is punched on the left side of this paper. Understanding so, you must then choose from the following 5 answer choices on the right to choose what you think the unfolded paper should now look like having been hole-punched once. &amp;#10;&amp;#10;Remembering the hole punch goes through both sides of the paper, a hole punch on a hot-dog style half sheet would entail two hole punches on the left side of the paper when unfolded.&amp;#10;&amp;#10;The answer is C!&amp;#10;&amp;#10;This is the same paper folding method that will be used for the following problems. Here, only one fold was made (hence 2 boxes on the left of the answer choices), but for other problems, keep in mind that there could be more than one fold made before a hole is punched through the paper." valType="extendedStr"/>
+        <Param name="text" updates="constant" val="Notice how in this sample problem, the first image on the left represented a full paper being folded upward “hot-dog style”. Next, a hole is punched on the left side of this paper. Understanding so, you must then choose from the following 5 answer choices on the right to choose what you think the unfolded paper should now look like having been hole-punched once. &amp;#10;&amp;#10;Remembering the hole punch goes through both sides of the paper, a hole punch on a hot-dog style half sheet would entail two hole punches on the left side of the paper when unfolded.&amp;#10;&amp;#10;The answer is 3!&amp;#10;&amp;#10;This is the same paper folding method that will be used for the following problems. Here, only one fold was made, hence there were 2 boxes on the left of the answer choices. But for other problems, keep in mind that there could be more than one fold made before a hole is punched through the paper." valType="extendedStr"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>

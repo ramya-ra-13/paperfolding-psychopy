@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.5),
-    on Sun Nov 22 00:07:09 2020
+    on Fri Dec  4 00:54:41 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -83,7 +83,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "titlecard"
 titlecardClock = core.Clock()
 Titlecard = visual.TextStim(win=win, name='Titlecard',
-    text='Paper Folding Task\n',
+    text='Welcome to the Paper Folding Experiment\n',
     font='Times New Roman',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -101,7 +101,7 @@ response = visual.TextStim(win=win, name='response',
 # Initialize components for Routine "instr"
 instrClock = core.Clock()
 Instructions = visual.TextStim(win=win, name='Instructions',
-    text='In this test you are to imagine the folding and unfolding of pieces of paper. \n\nIn each problem in the test there are some figures drawn at the left and there are others drawn at the right. The figures at the left represent a square piece of paper being folded, and the last of these figures on the left will have small circles drawn on it to show where the paper has been punched. ',
+    text='In this task, you are to imagine the folding and unfolding of pieces of paper. \n\nIn each problem in the test there are some figures drawn at the left and there are others drawn at the right. The figures at the left represent a square piece of paper being folded, and the last of these figures on the left will have small circles drawn on it to show where the paper has been punched. ',
     font='Times New Roman',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -119,7 +119,7 @@ response2 = visual.TextStim(win=win, name='response2',
 # Initialize components for Routine "saminstr"
 saminstrClock = core.Clock()
 ExProblem = visual.TextStim(win=win, name='ExProblem',
-    text='Now try the sample problem on the next slide. In this problem, one hole is punched through the folded paper.\n\nRemember that the hole is punched through all the thicknesses of paper at that point. \n\nOne of the five figures at the right will show where the holes could be when the paper is completely unfolded. You are to decide which one of these figures has the correct placement of the holes and click the correct number (1, 2, 3, 4, or, 5) on your keyboard that you feel corresponds with your correct answer.',
+    text='Now try the sample problem on the next slide. In this problem, one hole is punched through the folded paper.\n\nRemember that the hole is punched through all the thicknesses of paper at that point. \n\nOne of the five figures at the right will show where the holes could be when the paper is completely unfolded. You are to decide which one of these figures has the correct placement of the holes and click the correct number (1, 2, 3, 4, or, 5) on your keyboard that you feel corresponds with the correct answer.',
     font='Times New Roman',
     pos=(0, 0), height=0.04, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -170,8 +170,8 @@ image_3 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=512, interpolate=True, depth=-1.0)
-text_5 = visual.TextStim(win=win, name='text_5',
-    text='Notice how in this sample problem, the first image on the left represented a full paper being folded upward “hot-dog style”. Next, a hole is punched on the left side of this paper. Understanding so, you must then choose from the following 5 answer choices on the right to choose what you think the unfolded paper should now look like having been hole-punched once. \n\nRemembering the hole punch goes through both sides of the paper, a hole punch on a hot-dog style half sheet would entail two hole punches on the left side of the paper when unfolded.\n\nThe answer is C!\n\nThis is the same paper folding method that will be used for the following problems. Here, only one fold was made (hence 2 boxes on the left of the answer choices), but for other problems, keep in mind that there could be more than one fold made before a hole is punched through the paper.',
+explanation = visual.TextStim(win=win, name='explanation',
+    text='Notice how in this sample problem, the first image on the left represented a full paper being folded upward “hot-dog style”. Next, a hole is punched on the left side of this paper. Understanding so, you must then choose from the following 5 answer choices on the right to choose what you think the unfolded paper should now look like having been hole-punched once. \n\nRemembering the hole punch goes through both sides of the paper, a hole punch on a hot-dog style half sheet would entail two hole punches on the left side of the paper when unfolded.\n\nThe answer is 3!\n\nThis is the same paper folding method that will be used for the following problems. Here, only one fold was made, hence there were 2 boxes on the left of the answer choices. But for other problems, keep in mind that there could be more than one fold made before a hole is punched through the paper.',
     font='Times New Roman',
     pos=(0, -0.1), height=0.030, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -207,7 +207,7 @@ resp1 = visual.TextStim(win=win, name='resp1',
 # Initialize components for Routine "Instructionspart2"
 Instructionspart2Clock = core.Clock()
 secondslidein = visual.TextStim(win=win, name='secondslidein',
-    text='Your score on this test will be the number marked correctly minus a fraction of the number marked incorrectly. Therefore, it will not be to your advantage to guess unless you are able to eliminate one or more of the answer choices as wrong.',
+    text='Your score on this test will be the questions marked correctly minus a fraction of questions marked incorrectly. Therefore, it will not be to your advantage to guess unless you are able to eliminate one or more of the answer choices as wrong.',
     font='Times New Roman',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -225,7 +225,7 @@ resp4 = visual.TextStim(win=win, name='resp4',
 # Initialize components for Routine "Instructionspart3"
 Instructionspart3Clock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text='This test has two parts. You will have 3 minutes for each of the two parts. You will not be able to go back to previous questions, so please be wary of the clock when proceeding. \n\nWhen the time is up, you will be automatically advanced to the next screen. \n',
+    text='This test has two parts. You will have 3 minutes for each of the two parts. You will not be able to go back to previous questions, so please be wary of the clock on the top left of your screen when proceeding. \n\nWhen the time is up, you will be automatically advanced to the next screen. \n',
     font='Times New Roman',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -287,13 +287,20 @@ Show = visual.TextStim(win=win, name='Show',
 
 # Initialize components for Routine "intermission"
 intermissionClock = core.Clock()
+stop = visual.TextStim(win=win, name='stop',
+    text='STOP!',
+    font='Times New Roman',
+    pos=(0, 0.3), height=0.07, wrapWidth=None, ori=0, 
+    color='black', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
 middle = visual.TextStim(win=win, name='middle',
-    text='STOP!\n\nYou have finished Part I. \n\nWhen you are instructed to begin Part II, click any key on your keyboard. \n\nYou will again have 3 minutes to finish Part II.',
+    text='You have finished Part I. \n\nWhen you are instructed to begin Part II, click any key on your keyboard. \n\nYou will again have 3 minutes to finish Part II.',
     font='Times New Roman',
     pos=(0,0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=0.0);
+    depth=-1.0);
 key_response = keyboard.Keyboard()
 respbeforetrial2 = visual.TextStim(win=win, name='respbeforetrial2',
     text='Press any key to continue.',
@@ -301,7 +308,7 @@ respbeforetrial2 = visual.TextStim(win=win, name='respbeforetrial2',
     pos=(0, -0.4), height=0.040, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-2.0);
+    depth=-3.0);
 
 # Initialize components for Routine "trial_2"
 trial_2Clock = core.Clock()
@@ -336,7 +343,7 @@ endClock = core.Clock()
 thankyou = visual.TextStim(win=win, name='thankyou',
     text='You have now completed the experiment. \n\nThank you for your participation!',
     font='Times New Roman',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -784,7 +791,7 @@ key_resp_7.keys = []
 key_resp_7.rt = []
 _key_resp_7_allKeys = []
 # keep track of which components have finished
-analysistrialComponents = [text_4, image_3, text_5, text_7, key_resp_7]
+analysistrialComponents = [text_4, image_3, explanation, text_7, key_resp_7]
 for thisComponent in analysistrialComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -825,14 +832,14 @@ while continueRoutine:
         win.timeOnFlip(image_3, 'tStartRefresh')  # time at next scr refresh
         image_3.setAutoDraw(True)
     
-    # *text_5* updates
-    if text_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *explanation* updates
+    if explanation.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        text_5.frameNStart = frameN  # exact frame index
-        text_5.tStart = t  # local t and not account for scr refresh
-        text_5.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(text_5, 'tStartRefresh')  # time at next scr refresh
-        text_5.setAutoDraw(True)
+        explanation.frameNStart = frameN  # exact frame index
+        explanation.tStart = t  # local t and not account for scr refresh
+        explanation.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(explanation, 'tStartRefresh')  # time at next scr refresh
+        explanation.setAutoDraw(True)
     
     # *text_7* updates
     if text_7.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -890,8 +897,8 @@ thisExp.addData('text_4.started', text_4.tStartRefresh)
 thisExp.addData('text_4.stopped', text_4.tStopRefresh)
 thisExp.addData('image_3.started', image_3.tStartRefresh)
 thisExp.addData('image_3.stopped', image_3.tStopRefresh)
-thisExp.addData('text_5.started', text_5.tStartRefresh)
-thisExp.addData('text_5.stopped', text_5.tStopRefresh)
+thisExp.addData('explanation.started', explanation.tStartRefresh)
+thisExp.addData('explanation.stopped', explanation.tStopRefresh)
 thisExp.addData('text_7.started', text_7.tStartRefresh)
 thisExp.addData('text_7.stopped', text_7.tStopRefresh)
 # the Routine "analysistrial" was not non-slip safe, so reset the non-slip timer
@@ -1398,6 +1405,7 @@ for thisTrial in trials:
             minutes = int (timeRemaining/60.00)
             seconds = int (timeRemaining - (minutes*60.00))
             timeText = str(minutes) + ':'  + str(seconds) 
+        
             
         
         # *Show* updates
@@ -1476,7 +1484,7 @@ key_response.keys = []
 key_response.rt = []
 _key_response_allKeys = []
 # keep track of which components have finished
-intermissionComponents = [middle, key_response, respbeforetrial2]
+intermissionComponents = [stop, middle, key_response, respbeforetrial2]
 for thisComponent in intermissionComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1498,6 +1506,15 @@ while continueRoutine:
     tThisFlipGlobal = win.getFutureFlipTime(clock=None)
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
+    
+    # *stop* updates
+    if stop.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        stop.frameNStart = frameN  # exact frame index
+        stop.tStart = t  # local t and not account for scr refresh
+        stop.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(stop, 'tStartRefresh')  # time at next scr refresh
+        stop.setAutoDraw(True)
     
     # *middle* updates
     if middle.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -1560,6 +1577,8 @@ while continueRoutine:
 for thisComponent in intermissionComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+thisExp.addData('stop.started', stop.tStartRefresh)
+thisExp.addData('stop.stopped', stop.tStopRefresh)
 thisExp.addData('middle.started', middle.tStartRefresh)
 thisExp.addData('middle.stopped', middle.tStopRefresh)
 thisExp.addData('respbeforetrial2.started', respbeforetrial2.tStartRefresh)
